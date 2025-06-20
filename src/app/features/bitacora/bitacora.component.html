@@ -1,0 +1,23 @@
+<!-- bitacora.component.html -->
+<div class="p-4 text-white bg-gray-700 h-full overflow-auto">
+  <h2 class="text-2xl mb-4">Bitácora de sesiones</h2>
+  <ul class="space-y-2">
+    @for (s of sessions(); track s.id) {
+      <li class="bg-gray-800 rounded-lg p-3">
+        <div class="flex justify-between items-center">
+          <div>
+            <span class="font-bold">Sesión {{ s.id }}:</span> {{ s.titulo }} – <em>{{ s.fecha }}</em>
+          </div>
+          <button (click)="toggle(s.id)"
+                  class="text-blue-400 hover:text-blue-200">
+            @if (s.expanded) { ▲ } @else { ▼ }
+          </button>
+        </div>
+
+        @if (s.expanded) {
+          <p class="mt-2 whitespace-pre-wrap">{{ s.resumen || 'Sin resumen disponible.' }}</p>
+        }
+      </li>
+    }
+  </ul>
+</div>

@@ -1,0 +1,15 @@
+<div class="mt-8 ml-2">
+  <h3 class="text-xl mb-4">Dioses</h3>
+  <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 auto-rows-max">
+    @for (dios of dioses(); track dios.id) {
+      <div class="bg-gray-800 p-4 rounded-xl text-white shadow max-w-sm w-full mx-auto">
+        @if (dios.imagen) {
+          <img [src]="dios.imagen" alt="{{ dios.nombre }}" class="mb-2 rounded">
+        }
+        <h4 class="text-lg font-bold">{{ dios.nombre }}</h4>
+        <p class="text-sm italic capitalize">Relación: {{ dios.relacion_con_el_grupo }}</p>
+        <p class="mt-2 text-sm">{{ dios.descripcion }}</p>
+      </div>
+    }
+  </div>
+</div>

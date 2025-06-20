@@ -1,0 +1,32 @@
+<!-- npcs.component.html -->
+<div class="text-white p-4">
+
+  <h2 class="text-2xl mb-4">Locaciones</h2>
+
+  <ul class="space-y-2">
+    @for (loc of locaciones(); track loc) {
+      <li>
+        <button (click)="selectLocacion(loc)" class="font-bold underline hover:text-blue-400">
+          {{ loc }}
+        </button>
+      </li>
+    }
+  </ul>
+
+  @if (locacionActual()) {
+    <div class="mt-8">
+      <h3 class="text-xl mb-4">NPCs en {{ locacionActual() }}</h3>
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
+        @for (npc of npcs()[locacionActual() ?? '']; track npc.id) {
+          <div class="bg-gray-800 p-4 rounded-xl text-white shadow max-w-sm w-full mx-auto">
+            @if (npc.imagen) {
+              <img [src]="npc.imagen" alt="{{ npc.nombre }}" class="mb-2 rounded">
+            }
+            <h4 class="text-lg font-bold">{{ npc.nombre }}</h4>
+            <p class="text-sm italic">Estado: {{ npc.estado }}</p>
+            <p class="mt-2 text-sm">{{ npc.descripcion }}</p>
+          </div>
+        }
+      </div>
+    </div>
+  }

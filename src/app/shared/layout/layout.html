@@ -1,0 +1,22 @@
+<div class="flex h-screen">
+  <!-- Sidebar -->
+  <aside [class.w-64]="menuOpen()" [class.w-16]="!menuOpen()" class="bg-gray-800 text-white transition-all duration-300 p-4 overflow-hidden">
+    <button (click)="toggleMenu()" class="text-white mb-4 text-2xl" title="Toggle menu">☰</button>
+    @if (menuOpen()) {
+    <h2 routerLink="" class="text-xl font-bold mb-4 cursor-pointer">Menú</h2>
+    <ul>
+        <li><a routerLink="/npcs" class="menu-link">NPCs</a></li>
+        <li><a routerLink="/bitacora" class="menu-link">Bitácora</a></li>
+        <li><a routerLink="/dioses" class="menu-link">Dioses</a></li>
+        <li><a routerLink="/mapa" class="menu-link">Mapa</a></li>
+        <li><a routerLink="/cartas" class="menu-link">Cartas</a></li>
+        <li><a routerLink="/random-dios" class="menu-link">Bendición</a></li>
+    </ul>
+    }
+  </aside>
+
+  <!-- Main content -->
+  <div class="flex-1 overflow-auto bg-gray-700 text-white">
+    <router-outlet />
+  </div>
+</div>

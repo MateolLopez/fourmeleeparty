@@ -1,0 +1,14 @@
+<div class="relative h-full w-full bg-gray-700 p-4 text-white select-none">
+  <!-- Controles -->
+  <div class="absolute top-6 left-6 z-10 flex flex-col gap-2">
+    <button (click)="zoomIn()" class="bg-gray-800 px-2 py-1 rounded">+</button>
+    <button (click)="zoomOut()" class="bg-gray-800 px-2 py-1 rounded">-</button>
+    <button (click)="resetView()" class="bg-gray-800 px-2 py-1 rounded">Reset</button>
+  </div>
+
+
+  <!-- Imagen -->
+  <div class="overflow-hidden w-full h-[80vh] flex items-center justify-center">
+    <img #panzoomImg src="{{ mapSrc }}" class="block select-none" draggable="false" />
+  </div>
+</div>

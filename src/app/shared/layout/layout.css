@@ -1,0 +1,12 @@
+.menu-link {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.menu-link:hover {
+  background-color: #374151; /* hover:bg-gray-700 */
+}

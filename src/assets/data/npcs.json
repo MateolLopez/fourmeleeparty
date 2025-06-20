@@ -1,0 +1,36 @@
+{
+  "phandalin": [
+    {
+      "id": 1,
+      "nombre": "Larno Albrek (Glasstaff)",
+      "raza": "Alto Elfo",
+      "estado": "muerto",
+      "descripcion": "Un alto elfo que trabajaba de consejero del alcalde Harbin Wester, filtraba información para que este creyera que todo estaba en orden. Glasstaff trabajaba para BlackSpider y permitía que los bandidos del León Rojo asolaran la ciudad.",
+      "imagen": "assets/images/npcs/glasstaff.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Harbin Wester",
+      "raza": "Humano",
+      "estado": "vivo",
+      "descripcion": "Alcalde de Phandalin. Permanecía ignorante de los actos de Glasstaff. Aunque algo ingenuo, no parecía una mala persona. Actualmente se encarga de la ciudad por cuenta propia desde la muerte del consejero.",
+      "imagen": "assets/images/npcs/harbin_wester.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Rigoberto",
+      "raza": "Enano",
+      "estado": "vivo",
+      "descripcion": "Herrero enano que ayudó al grupo. Les compró cosas útiles y chatarra, vendiéndoles armas y armaduras de buena calidad a buen precio. Forjó un fuerte lazo con la party.",
+      "imagen": "assets/images/npcs/rigoberto.jpg"
+    },
+        {
+      "id": 4,
+      "nombre": "Nezznar",
+      "raza": "Elfo Oscuro",
+      "estado": "vivo",
+      "descripcion": "Lider de 'Black Spider', algunos lo llaman black spider a él mismo inclusive, derrotó a los aventureros y los unió a su grupo, ahora ellos trabajan para él ayudándolo a reactivar la Forja de los Espíritus.",
+      "imagen": "assets/images/npcs/nezznar.jpg"
+    }
+  ]
+}

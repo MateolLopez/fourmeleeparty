@@ -1,0 +1,7 @@
+/* random-dios.component.css */
+button { transition: background 0.2s ease; }
+button:active { background-color: #2563eb; }
+
+div > div {
+  transition: opacity 0.3s ease;
+}
