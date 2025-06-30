@@ -1,5 +1,5 @@
 {
-  "phandalin": [
+  "Phandalin": [
     {
       "id": 1,
       "nombre": "Larno Albrek (Glasstaff)",
@@ -21,7 +21,7 @@
       "nombre": "Rigoberto",
       "raza": "Enano",
       "estado": "vivo",
-      "descripcion": "Herrero enano que ayudó al grupo. Les compró cosas útiles y chatarra, vendiéndoles armas y armaduras de buena calidad a buen precio. Forjó un fuerte lazo con la party.",
+      "descripcion": "Herrero enano que ayudó al grupo. Les compró cosas útiles y chatarra, vendiéndoles armas y armaduras de buena calidad a buen precio. Forjó un fuerte lazo con la party. (Si chicos, también vende equipos de mate)",
       "imagen": "assets/images/npcs/rigoberto.jpg"
     },
         {
@@ -31,6 +31,39 @@
       "estado": "vivo",
       "descripcion": "Lider de 'Black Spider', algunos lo llaman black spider a él mismo inclusive, derrotó a los aventureros y los unió a su grupo, ahora ellos trabajan para él ayudándolo a reactivar la Forja de los Espíritus.",
       "imagen": "assets/images/npcs/nezznar.jpg"
+    },
+        {
+      "id": 5,
+      "nombre": "Gundren Rockseeker",
+      "raza": "Enano",
+      "estado": "muerto",
+      "descripcion": "Oriundo de Phandalin, gracias a su ayuda comercial, de influencias y guía, Phandalin ha logrado reconstuirse casi al completo.",
+      "imagen": "assets/images/npcs/gundren.jpg"
+    },
+        {
+      "id": 6,
+      "nombre": "Tharden Rockseeker",
+      "raza": "Enano",
+      "estado": "muerto",
+      "descripcion": "Hermano mayor de Gundren y su mano derecha, él era su compañero de misiones y su confidente, sirviéndole como gestor incluso.",
+      "imagen": "assets/images/npcs/tharden.jpg"
+    },
+        {
+      "id": 7,
+      "nombre": "Tharil Rockseeker",
+      "raza": "Enano",
+      "estado": "vivo",
+      "descripcion": "Hermano menor de los Rockseeker, él se encarga del negocio familiar en Phandalin debido a que sus hermanos solían viajar la mayoría del tiempo.",
+      "imagen": "assets/images/npcs/nezznar.jpg"
     }
-  ]
+  ],  
+  "Triboar": [
+    {
+      "id": 1,
+      "nombre": "Barys",
+      "raza": "Elfo oscuro",
+      "estado": "vivo",
+      "descripcion": "Sirviente de Blackspider, aparentemente por voluntad propia. Posee una gran red de contactos y es dueño de una de las posadas de mayor renombre en Triboar.",
+      "imagen": "assets/images/npcs/barys.jpg"
+    }]
 }

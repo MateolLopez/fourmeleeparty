@@ -29,7 +29,9 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+  "outputPath": "dist/fourmeleeparty",
+  "index": "src/index.html"
           },
           "configurations": {
             "production": {
@@ -84,6 +86,9 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

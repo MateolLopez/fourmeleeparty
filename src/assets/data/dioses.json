@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Torm",
-    "relacion_con_el_grupo": "benefactor",
+    "relacion_con_el_grupo": "?????",
     "descripcion": "Dios de la valentía, el deber y la justicia. Torm inspira a los justos a actuar con honor incluso frente al peligro.",
     "imagen": "assets/images/dioses/torm.jpg"
   },
@@ -16,7 +16,7 @@
   {
     "id": 3,
     "nombre": "Bahamut",
-    "relacion_con_el_grupo": "benefactor",
+    "relacion_con_el_grupo": "??????",
     "descripcion": "El dios dragón de la justicia y la nobleza. Adversario eterno de Tiamat y protector de los inocentes.",
     "imagen": "assets/images/dioses/bahamut.jpg"
   },
