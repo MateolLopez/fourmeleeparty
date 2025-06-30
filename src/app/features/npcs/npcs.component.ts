@@ -25,6 +25,6 @@ export class NpcsComponent {
   }
 
 selectLocacion(loc: string) {
-  this.locacionActual.set(loc.toLowerCase());
+  this.locacionActual.set(loc);
 }
 }
