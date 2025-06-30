@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "/fourmeleeparty": {},
+    "/fourmeleeparty/bitacora": {},
+    "/fourmeleeparty/cartas": {},
+    "/fourmeleeparty/dioses": {},
+    "/fourmeleeparty/dm": {},
+    "/fourmeleeparty/mapa": {},
+    "/fourmeleeparty/npcs": {},
+    "/fourmeleeparty/random-dios": {}
+  }
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Tymora",
+    "alignment": "Chaotic Good",
+    "favor": "Ayuda en el momento oportuno... es este ese momento?.",
+    "debt": "Donar un objeto valioso a alguien necesitado."
+  },
+  {
+    "id": 2,
+    "name": "Mystra",
+    "alignment": "Neutral Good",
+    "favor": "Lo arcano es peligroso, pero puede ser útil también.",
+    "debt": "Recuperar o proteger un tomo arcano para su templo."
+  },
+  {
+    "id": 3,
+    "name": "Torm",
+    "alignment": "Lawful Good",
+    "favor": "Tu fuerza será tan grande como tu convicción.",
+    "debt": "Liderar acción heroica para salvar inocentes."
+  },
+  {
+    "id": 4,
+    "name": "Tyr",
+    "alignment": "Lawful Good",
+    "favor": "El conocimiento es poder... y justicia.",
+    "debt": "Entregar ante la justicia a un criminal importante."
+  },
+  {
+    "id": 5,
+    "name": "Chauntea",
+    "alignment": "Neutral Good",
+    "favor": "Curaré tus heridas y tu dolor.",
+    "debt": "Ayuda a la naturaleza, es lo único que pido."
+  },
+  {
+    "id": 6,
+    "name": "Ilmater",
+    "alignment": "Lawful Good",
+    "favor": "Mi ayuda será para tí y para tus aliados.",
+    "debt": "Reparte tus riquezas y tu poder con quienes más lo necesitan."
+  },
+  {
+    "id": 7,
+    "name": "Silvanus",
+    "alignment": "Neutral",
+    "favor": "La naturaleza no sólo es calma, a veces es salvaje.",
+    "debt": "Purificar un santuario o erradicar una corrupción en alguna zona no urbana."
+  },
+  {
+    "id": 8,
+    "name": "Corellon Larethian",
+    "alignment": "Chaotic Good",
+    "favor": "Te otorgaré sabiduría temporal, utilizarás tus armas con mayor eficacia.",
+    "debt": "Expande tu conocimiento, acercate a algún arte élfica."
+  },
+  {
+    "id": 9,
+    "name": "Moradin",
+    "alignment": "Lawful Good",
+    "favor": "Templaré tu acero para volverlo casi indestructible.",
+    "debt": "Ayuda a alguna comunidad enana, entrega riquezas sin esperar nada a cambio."
+  },
+  {
+    "id": 10,
+    "name": "Gond",
+    "alignment": "Neutral",
+    "favor": "No estoy interesado pero... esto podría ser divertido.",
+    "debt": "Recuperar un artefacto antiguo para un museo o eruditos."
+  },
+  {
+    "id": 11,
+    "name": "Selûne",
+    "alignment": "Chaotic Good",
+    "favor": "Escapar siempre es una opción cuando la luna está presente.",
+    "debt": "Guiar a peregrinos por terreno peligroso durante una noche."
+  },
+  {
+    "id": 12,
+    "name": "Kelemvor",
+    "alignment": "Lawful Neutral",
+    "favor": "Muchos escapan de la ley mientras viven, pero en la muerte... es otra historia.",
+    "debt": "Organizar un entierro o rito funerario digno siempre será obligatorio."
+  },
+  {
+    "id": 13,
+    "name": "Tempus",
+    "alignment": "Neutral",
+    "favor": "Esto no debió ser así, mejor intentémoslo de nuevo.",
+    "debt": "Liderar una campaña militar justa contra un mal real."
+  },
+  {
+    "id": 14,
+    "name": "Waukeen",
+    "alignment": "Neutral",
+    "favor": "Que harías si tus riquezas fueran mayores... averiguemoslo!",
+    "debt": "Financiar o ayudar económicamente a una comunidad comercial."
+  },
+  {
+    "id": 15,
+    "name": "Mask",
+    "alignment": "Neutral Evil",
+    "favor": "Imagina que tu presencia fuese tan silenciosa que tus oponentes ni siquiera recuerden tu nombre.",
+    "debt": "Robar un objeto de alto valor sin ser visto y entregarlo a Mask."
+  },
+  {
+    "id": 16,
+    "name": "Shar",
+    "alignment": "Neutral Evil",
+    "favor": "Aquellos que ven no comprenderán jamás el frío de las sombras... démosles una probada.",
+    "debt": "Filtrar secretos oscuros o sembrar caos en alguna comunidad."
+  },
+  {
+    "id": 17,
+    "name": "Bane",
+    "alignment": "Lawful Evil",
+    "favor": "Algunos logran huír de la muerte, pero del temor nadie se libra.",
+    "debt": "Subyugar o dominar una región en su nombre."
+  },
+  {
+    "id": 18,
+    "name": "Cyric",
+    "alignment": "Chaotic Evil",
+    "favor": "La lealtad y la amistad existen... pero son efímeras, más incluso que la propia fe",
+    "debt": "Sembrar traición o desestabilizar alianzas con alguno de tus aliados."
+  },
+  {
+    "id": 19,
+    "name": "Beshaba",
+    "alignment": "Chaotic Evil",
+    "favor": "No los ayudaré, no como Tymora lo hizo... yo sólo maldeciré a sus rivales... sólo esta vez.",
+    "debt": "Eventualmente va a cobrarlo... con creces."
+  },
+  {
+    "id": 20,
+    "name": "Auril",
+    "alignment": "Neutral Evil",
+    "favor": "Tal vez no pueda congelar el sol aún... pero sí a algunos miserables.",
+    "debt": "Congelar o destruir un asentamiento o zona aliada."
+  },
+  {
+    "id": 21,
+    "name": "Angharradh",
+    "alignment": "Chaotic Good",
+    "favor": "Esta vez estamos de acuerdo, sólo confíen!",
+    "debt": "Preservar un legado élfico: defender un antiguo relicario o linaje en peligro."
+  }
+]
