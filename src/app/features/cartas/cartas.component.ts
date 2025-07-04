@@ -11,12 +11,22 @@ import { CartasService, Carta } from '../../services/cartas.service';
 export class CartasComponent {
   private cartasService = inject(CartasService);
   mano = signal<Carta[]>([]);
+  manoSize = signal<number>(5); // Nueva señal para el tamaño de la mano
 
   constructor() {
-    this.mano.set(this.cartasService.obtenerMano());
+    this.mano.set(this.cartasService.obtenerMano(this.manoSize()));
   }
 
-  recargarMano() {
-    this.mano.set(this.cartasService.obtenerMano());
+  onManoSizeChange(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const value = Number(input.value);
+    if (!isNaN(value) && value > 0) {
+      this.manoSize.set(value);
+    }
+  }
+
+  recargarMano(size?: number): void {
+    const cantidad = size ?? this.manoSize();
+    this.mano.set(this.cartasService.obtenerMano(cantidad));
   }
 }

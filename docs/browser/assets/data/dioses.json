@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torm",
+    "relacion_con_el_grupo": "?????",
+    "descripcion": "Dios de la valentía, el deber y la justicia. Torm inspira a los justos a actuar con honor incluso frente al peligro.",
+    "imagen": "assets/images/dioses/torm.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Mystra",
+    "relacion_con_el_grupo": "neutral",
+    "descripcion": "Diosa de la magia. Custodia el equilibrio del tejido mágico y observa a los usuarios del arcano con cautela e interés.",
+    "imagen": "assets/images/dioses/mystra.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Bahamut",
+    "relacion_con_el_grupo": "??????",
+    "descripcion": "El dios dragón de la justicia y la nobleza. Adversario eterno de Tiamat y protector de los inocentes.",
+    "imagen": "assets/images/dioses/bahamut.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Tiamat",
+    "relacion_con_el_grupo": "?????",
+    "descripcion": "La Reina de los Dragones Cromáticos. Astuta y manipuladora, busca aliados para evitar ser reemplazada por una amenaza creciente.",
+    "imagen": "assets/images/dioses/tiamat.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Tymora",
+    "relacion_con_el_grupo": "neutral",
+    "descripcion": "Diosa de la suerte, los aventureros y los riesgos. No favorece ni se opone al grupo, pero su influencia puede ser percibida en ocasiones.",
+    "imagen": "assets/images/dioses/tymora.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Angharradh",
+    "relacion_con_el_grupo": "benefactor",
+    "descripcion": "Diosa triple de las elfas: sabiduría, protección y unidad. Guía sutilmente a aquellos que buscan un propósito elevado.",
+    "imagen": "assets/images/dioses/angharradh.jpg"
+  }
+]

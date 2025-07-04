@@ -45,9 +45,9 @@ export class CartasService {
     return cartas[indice];
   }
 
-  obtenerMano(): Carta[] {
+  obtenerMano(size:number): Carta[] {
     const mano: Carta[] = [];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < size; i++) {
       mano.push(this.obtenerCartaAleatoria());
     }
     return mano;
